@@ -30,13 +30,16 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".MapsActivityBackUp"
             android:label="@string/title_activity_maps">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TripListActivity" android:label="@string/title_activity_trip_list"/>
+        <activity android:name=".TripReviewActivity" android:label="@string/title_activity_trip_review"/>
+
     </application>
 
 </manifest>

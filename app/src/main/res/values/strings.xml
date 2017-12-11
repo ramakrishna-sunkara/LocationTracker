@@ -1,4 +1,23 @@
 <resources>
-    <string name="app_name">LocationTracker</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name">My Trips Tracker</string>
+    <string name="title_activity_maps">My Trips Tracker</string>
+    <string name="msg_current_trip_details_empty">There is no current trip found.Please start trip now.</string>
+    <string name="msg_trip_saved">Your trip saved successfully.</string>
+    <string name="msg_trip_completed">Trip completed successfully.</string>
+    <string name="msg_trip_started">Your trip started successfully.</string>
+    <string name="msg_empty_trips">Sorry...You don\'t have any trips...</string>
+    <string name="title_activity_trip_list">My Trips</string>
+    <string name="title_activity_trip_review">My Trip Review</string>
+
+    <string name="nav_start">Start Trip</string>
+    <string name="nav_stop">End Trip</string>
+    <string name="nav_directions">Trip Review</string>
+    <string name="nav_trip_list">My Trips</string>
+    <string name="msg_please_end_trip">For Review you should end your trip first.</string>
+
+    <string name="label_start_date">: %1$s</string>
+    <string name="label_end_date">: %1$s</string>
+    <string name="label_trip_points">: %1$s</string>
+    <string name="msg_invalid_trip">Sorry.This is invalid trip.</string>
+
 </resources>
